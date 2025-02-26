@@ -1,6 +1,6 @@
 # Clonar git
 ```bash
-    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    git clone https://github.com/sergiolttz/bot-basico
 ```
 
 # Crear variable de entorno
