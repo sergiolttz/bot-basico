@@ -1,12 +1,29 @@
 # clonar git
+https://github.com/sergiolttz/bot-basico
+
+# Crear variable de entorno
+
+## Windows (cmd)
+
+```bash
+    New-item .env
+```
+
+## Linux (bash)
+
+```bash
+    touch .env
+```
 
 # Crear venv
-
 ```bash
     python -m venv bot_venv
 ```
-# Acrivar venv
 
+# Acrivar venv
+```bash
+    bot_venv/Scripts/Activate.ps1
+```
 # Instalar dep
 
 ## Windows (cmd)
@@ -19,7 +36,12 @@
     .source bot_venv/bin/activate
 ```
 
-# Run project
+# instalar dependencias
+```bash
+    pip install -r requirements.txt
+```
+
+# ejecutar proyecto
 ```bash
     fastapi dev main.py
 ```
