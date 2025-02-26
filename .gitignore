@@ -1,0 +1,8 @@
+# Ignore .env file
+.env
+
+# Ignore virtual environment
+bot_venv/
+
+# Ignore python cache
+__pycache__/ 

@@ -1,0 +1,25 @@
+# clonar git
+
+# Crear venv
+
+```bash
+    python -m venv bot_venv
+```
+# Acrivar venv
+
+# Instalar dep
+
+## Windows (cmd)
+
+```bash
+    bot_venv/Scripts/Activate.ps1
+```
+## Linux (Bash)
+```bash
+    .source bot_venv/bin/activate
+```
+
+# Run project
+```bash
+    fastapi dev main.py
+```
